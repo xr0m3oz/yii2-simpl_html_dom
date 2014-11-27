@@ -1,4 +1,4 @@
-<?
+<?php
 /**
  * Website: http://sourceforge.net/projects/simplehtmldom/
  * Acknowledge: Jose Solorzano (https://sourceforge.net/projects/php-html/)
@@ -38,7 +38,7 @@
  * @subpackage simple_html_dom
  */
  
-namespace xr0m3oz\simple_html_dom_node;
+namespace xr0m3oz\simple_html_dom;
 use Yii;
 
 /**
