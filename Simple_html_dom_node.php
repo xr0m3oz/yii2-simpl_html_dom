@@ -36,6 +36,9 @@
  * @package PlaceLocalInclude
  * @subpackage simple_html_dom
  */
+ 
+namespace xr0m3oz\simple_html_dom_node;
+use Yii;
 
 /**
  * All of the Defines for the classes below.
