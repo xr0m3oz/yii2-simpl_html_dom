@@ -256,7 +256,7 @@ class SimpleHtmlDom
         $this->lowercase = $lowercase;
         $this->default_br_text = $defaultBRText;
         $this->default_span_text = $defaultSpanText;
-        $this->root = new simple_html_dom_node($this);
+        $this->root = new SimpleHtmlDomNode($this);
         $this->root->tag = 'root';
         $this->root->_[HDOM_INFO_BEGIN] = -1;
         $this->root->nodetype = HDOM_TYPE_ROOT;
@@ -273,7 +273,7 @@ class SimpleHtmlDom
         }
 
         // text
-        $node = new simple_html_dom_node($this);
+        $node = new SimpleHtmlDomNode($this);
         ++$this->cursor;
         $node->_[HDOM_INFO_TEXT] = $s;
         $this->link_nodes($node, false);
@@ -428,7 +428,7 @@ class SimpleHtmlDom
             return true;
         }
 
-        $node = new simple_html_dom_node($this);
+        $node = new SimpleHtmlDomNode($this);
         $node->_[HDOM_INFO_BEGIN] = $this->cursor;
         ++$this->cursor;
         $tag = $this->copy_until($this->token_slash);
@@ -629,7 +629,7 @@ class SimpleHtmlDom
     // as a text node
     protected function as_text_node($tag)
     {
-        $node = new simple_html_dom_node($this);
+        $node = new SimpleHtmlDomNode($this);
         ++$this->cursor;
         $node->_[HDOM_INFO_TEXT] = '</' . $tag . '>';
         $this->link_nodes($node, false);
