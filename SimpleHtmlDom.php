@@ -38,7 +38,7 @@
  * @subpackage simple_html_dom
  */
  
-namespace xr0m3oz\simple_html_dom;
+namespace xr0m3oz\simplehtml;
 use Yii;
 
 /**
@@ -67,7 +67,7 @@ define('DEFAULT_BR_TEXT', "\r\n");
 define('DEFAULT_SPAN_TEXT', " ");
 define('MAX_FILE_SIZE', 600000);
 
-class Simple_html_dom_node
+class SimpleHtmlDom
 {
     public $nodetype = HDOM_TYPE_TEXT;
     public $tag = 'text';
