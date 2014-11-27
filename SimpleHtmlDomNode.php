@@ -1,4 +1,7 @@
 <?php
+namespace xr0m3oz\simplehtml;
+use Yii;
+
 class SimpleHtmlDomNode
 {
     public $nodetype = HDOM_TYPE_TEXT;
