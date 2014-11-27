@@ -1,0 +1,23 @@
+{
+    "name": "xr0m3oz/yii2-simpl_html_dom",
+    "description": "Simpl html dom Yii Framework 2.0 simplehtmldom.sourceforge.net",
+    "keywords": ["yii", "yii2", "extension", "simpl_html_dom"],
+    "homepage": "https://github.com/xr0m3oz",
+    "type": "yii2-extension",
+    "license": "BSD 3-Clause",
+    "authors": [
+        {
+            "name": "Shtepa Roman",
+            "email": "xr0m3oz@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "xr0m3oz\\simpl_html_dom\\": ""
+        }
+    }
+}
